@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<COOKTOP>
+	<XMLDOC url="F:\Program Files\AJBLisp\Lisp\test.xml">
+		<SCHEMAS>
+		</SCHEMAS>
+	</XMLDOC>
+	<XSLDOC url="F:\Program Files\AJBLisp\Lisp\xml2lisp.xsl">
+		<SCHEMAS>
+		</SCHEMAS>
+	</XSLDOC>
+	<OPTIONS diredit="" includeurl="" httpserver="" frames="" cooktop.includeurl="0" cooktop.httpserver="" cooktop.frames="0"/>
+	<XSLT-PARAMS/>
+</COOKTOP>

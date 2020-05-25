@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title> Error codes </title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> Error Codes </h1>
+<table>
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">Fatal errors</td>
+</tr> 
+<tr> 
+<td align="right">0</td><td> :fatal_exit</td><td> </td>
+</tr> 
+<tr> 
+<td align="right">-1</td><td> :fatal_heap</td><td> Failed to allocate heap</td>
+</tr> 
+<tr> 
+<td align="right">-2</td><td> :fatal_stack</td><td> Failed to allocate stack</td>
+</tr> 
+<tr> 
+<td align="right">-3</td><td> :fatal_heap_ovf</td><td> Out of heap space</td>
+</tr> 
+<tr> 
+<td align="right">-4</td><td> :fatal_stack_ovf</td><td> Out of stack space</td>
+</tr> 
+<tr> 
+<td align="right">-5</td><td> :fatal_bad_stack</td><td> Corrupted lisp stack</td>
+</tr> 
+<tr> 
+<td align="right">-6</td><td> :fatal_memory</td><td> Out of system memory</td>
+</tr> 
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">Interpreter errors</td>
+</tr> 
+<tr> 
+<td align="right">1</td><td> :err_prog</td><td> Programmed error</td>
+</tr> 
+<tr> 
+<td align="right">2</td><td> :err_user</td><td> User interrupt</td>
+</tr> 
+<tr> 
+<td align="right">3</td><td> :err_num_args</td><td> Incorrect number of arguments to function</td>
+</tr> 
+<tr> 
+<td align="right">4</td><td> :err_list_exp</td><td> List argument expected</td>
+</tr> 
+<tr> 
+<td align="right">5</td><td> :err_num_exp</td><td> Numeric argument expected</td>
+</tr> 
+<tr> 
+<td align="right">6</td><td> :err_int_exp</td><td> Integer argument expected</td>
+</tr> 
+<tr> 
+<td align="right">7</td><td> :err_real_exp</td><td> Real argument expected</td>
+</tr> 
+<tr> 
+<td align="right">8</td><td> :err_sym_exp</td><td> Symbol argument expected</td>
+</tr> 
+<tr> 
+<td align="right">9</td><td> :err_key_exp</td><td> Key argument expected</td>
+</tr> 
+<tr> 
+<td align="right">10</td><td> :err_chr_exp</td><td> Character argument expected</td>
+</tr> 
+<tr> 
+<td align="right">11</td><td> :err_str_exp</td><td> String argument expected</td>
+</tr> 
+<tr> 
+<td align="right">12</td><td> :err_file_exp</td><td> File argument expected</td>
+</tr> 
+<tr> 
+<td align="right">13</td><td> :err_atom_exp</td><td> Atomic argument expected</td>
+</tr> 
+<tr> 
+<td align="right">14</td><td> :err_vec_exp</td><td> Vector argument expected</td>
+</tr> 
+<tr> 
+<td align="right">15</td><td> :err_inv_key</td><td> Invalid key argument</td>
+</tr> 
+<tr> 
+<td align="right">16</td><td> :err_bad_func</td><td> Illegal function</td>
+</tr> 
+<tr> 
+<td align="right">17</td><td> :err_bad_mac</td><td> Illegal macro</td>
+</tr> 
+<tr> 
+<td align="right">18</td><td> :err_bad_formal</td><td> Illegal formal argument</td>
+</tr> 
+<tr> 
+<td align="right">19</td><td> :err_immutable</td><td> Cannot change value of a constant</td>
+</tr> 
+<tr> 
+<td align="right">20</td><td> :err_bad_assoc</td><td> Badly formed association list</td>
+</tr> 
+<tr> 
+<td align="right">21</td><td> :err_bad_plist</td><td> Badly formed property list</td>
+</tr> 
+<tr> 
+<td align="right">22</td><td> :err_null_loop</td><td> Aborted null loop</td>
+</tr> 
+<tr> 
+<td align="right">23</td><td> :err_num_formal</td><td> Too many arguments for stack frame</td>
+</tr> 
+<tr> 
+<td align="right">24</td><td> :err_bad_real</td><td> Cannot interpret string as real</td>
+</tr> 
+<tr> 
+<td align="right">25</td><td> :err_bad_int</td><td> Cannot interpret string as integer</td>
+</tr> 
+<tr> 
+<td align="right">26</td><td> :err_bad_arg</td><td> Invalid argument(s)</td>
+</tr> 
+<tr> 
+<td align="right">27</td><td> :err_let_bind</td><td> Badly formed binding in LET</td>
+</tr> 
+<tr> 
+<td align="right">28</td><td> :err_bad_case</td><td> Badly formed case expression</td>
+</tr> 
+<tr> 
+<td align="right">29</td><td> :err_no_case</td><td> No matching case found</td>
+</tr> 
+<tr> 
+<td align="right">30</td><td> :err_bad_ascii</td><td> Illegal ASCII value</td>
+</tr> 
+<tr> 
+<td align="right">31</td><td> :err_str_len</td><td> String buffer overflow</td>
+</tr> 
+<tr> 
+<td align="right">32</td><td> :err_sym_len</td><td> Symbol name too long (>240 characters)</td>
+</tr> 
+<tr> 
+<td align="right">33</td><td> :err_bad_typ</td><td> Unrecognised argument type</td>
+</tr> 
+<tr> 
+<td align="right">34</td><td> :err_catch</td><td> Throw not caught</td>
+</tr> 
+<tr> 
+<td align="right">35</td><td> :err_bit_num</td><td> Illegal bit number</td>
+</tr> 
+<tr> 
+<td align="right">36</td><td> :err_index</td><td> Vector/List/String index out of range</td>
+</tr> 
+<tr> 
+<td align="right">37</td><td> :err_vec_dim</td><td> Vector dimension must be a whole number</td>
+</tr> 
+<tr> 
+<td align="right">38</td><td> :err_heap</td><td> Heap space very low</td>
+</tr> 
+<tr> 
+<td align="right">39</td><td> :err_append_dot</td><td> Attempt to append onto dotted list</td>
+</tr> 
+<tr> 
+<td align="right">40</td><td> :err_vsort_cmp</td><td> Non-integer compare result in vsort</td>
+</tr> 
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">Maths errors</td>
+</tr> 
+<tr> 
+<td colspan=3><i>Maths errors raised within the interpreter will have more</i></td>
+</tr> 
+<tr> 
+<td colspan=3><i>helpful error messages which specify the function that</i></td>
+</tr> 
+<tr> 
+<td colspan=3><i>failed.  These messages are provided for user.</i></td>
+</tr> 
+<tr> 
+<td align="right">100</td><td> :err_m_dom</td><td> Maths - domain error</td>
+</tr> 
+<tr> 
+<td align="right">101</td><td> :err_m_sing</td><td> Maths - result singular</td>
+</tr> 
+<tr> 
+<td align="right">102</td><td> :err_m_ovrf</td><td> Maths - result overflow</td>
+</tr> 
+<tr> 
+<td align="right">103</td><td> :err_m_undf</td><td> Maths - result underflow</td>
+</tr> 
+<tr> 
+<td align="right">104</td><td> :err_m_inac</td><td> Maths - result inaccurate</td>
+</tr> 
+<tr> 
+<td align="right">105</td><td> :err_m_inv</td><td> Maths - invalid operation</td>
+</tr> 
+<tr> 
+<td align="right">106</td><td> :err_m_divz</td><td> Maths - divide by zero</td>
+</tr> 
+<tr> 
+<td align="right">107</td><td> :err_m_iovf</td><td> Maths - integer overflow</td>
+</tr> 
+<tr> 
+<td align="right">108</td><td> :err_m_unk</td><td> Maths - unknown error</td>
+</tr> 
+<tr> 
+<td align="right">109</td><td> :err_m_fpval</td><td> Maths - illegal ieee float value</td>
+</tr> 
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">I/O errors</td>
+</tr> 
+<tr> 
+<td align="right">200</td><td> :err_eof_esc</td><td> EOF after reading escape character</td>
+</tr> 
+<tr> 
+<td align="right">201</td><td> :err_eof_str</td><td> EOF inside string</td>
+</tr> 
+<tr> 
+<td align="right">202</td><td> :err_eof_list</td><td> EOF inside list</td>
+</tr> 
+<tr> 
+<td align="right">203</td><td> :err_str_chr</td><td> Illegal character inside string</td>
+</tr> 
+<tr> 
+<td align="right">204</td><td> :err_bad_rpar</td><td> Unexpected close parenthesis</td>
+</tr> 
+<tr> 
+<td align="right">205</td><td> :err_no_rpar</td><td> Missing close parenthesis</td>
+</tr> 
+<tr> 
+<td align="right">206</td><td> :err_patom</td><td> List argument to patom</td>
+</tr> 
+<tr> 
+<td align="right">207</td><td> :err_tok_len</td><td> Input token exceeds buffer size</td>
+</tr> 
+<tr> 
+<td align="right">208</td><td> :err_bad_rmac</td><td> Illegal input after '#'</td>
+</tr> 
+<tr> 
+<td align="right">209</td><td> :err_unreadable</td><td> Unreadable input; #<...</td>
+</tr> 
+<tr> 
+<td align="right">210</td><td> :err_prt_buf</td><td> Output buffer overflow</td>
+</tr> 
+<tr> 
+<td align="right">211</td><td> :err_kbd_buf</td><td> Keyboard buffer underflow</td>
+</tr> 
+<tr> 
+<td align="right">212</td><td> :err_dot_syntax</td><td> Invalid dotted pair syntax</td>
+</tr> 
+<tr> 
+<td align="right">213</td><td> :err_not_found</td><td> File not found</td>
+</tr> 
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">Operating System errors</td>
+</tr> 
+<tr> 
+<td colspan=3><i>Message always provided by Windows/interpreter</i></td>
+</tr> 
+<tr> 
+<td align="right">300</td><td> :err_os</td><td> OS Error</td>
+</tr> 
+<tr> 
+<td align="right">301</td><td> :err_process</td><td> Shell process error</td>
+</tr> 
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">Graphics errors</td>
+</tr> 
+<tr> 
+<td align="right">400</td><td> :err_win_open</td><td> GFX - Failed to open window</td>
+</tr> 
+<tr> 
+<td align="right">401</td><td> :err_win_exp</td><td> GFX - Window argument expected</td>
+</tr> 
+<tr> 
+<td align="right">402</td><td> :err_inv_vp</td><td> GFX - Invalid Viewport</td>
+</tr> 
+<tr> 
+<td align="right">403</td><td> :err_inv_bstyl</td><td> GFX - Invalid brush style</td>
+</tr> 
+<tr> 
+<td align="right">404</td><td> :err_inv_pstyl</td><td> GFX - Invalid pen style</td>
+</tr> 
+<tr> 
+<td align="right">405</td><td> :err_vt2_sing</td><td> GFX - 2D View transform nearly singular</td>
+</tr> 
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">Unknown error</td>
+</tr> 
+<tr> 
+<td align="right">998</td><td> :err_unknown</td><td> Unknown error</td>
+</tr> 
+<tr> 
+<td colspan=3 bgcolor="#D0D0D0">Debug</td>
+</tr> 
+<tr> 
+<td align="right">999</td><td> :err_debug</td><td> Debug error</td>
+</tr> 
+</table
+</body>
+</html>

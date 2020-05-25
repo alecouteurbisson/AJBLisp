@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>cond</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (cond (&lt;pred&gt;  [&lt;action&gt; ...]) ...)</h1>
+<b>Macro    </b><br />
+<p>
+Takes any number of arguments, each of which is a list.
+The car of each list is evaluated, in turn, until one
+evaluates non-nil.  The actions which form the cdr of
+that list are then evaluated in order and the value of
+the last action returned.
+</p><p>
+If no list is selected, the selected list has no actions
+or the entire cond has no arguments, then nil is returned.
+The last condition in a cond is often t as a catch-all
+for everything that has fallen through the prior cases.
+</p><p>
+No arguments are evaluated unless it is expressly stated
+so above.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (cond)                         ; Degenerate case
+= nil
+
+&gt; (cond ((atom x) 'atom)
+        ((listp x) 'list)
+        (t 'not_atom_or_list) )
+= atom                           ; So x was an atom
+</pre>
+</body>
+</html>

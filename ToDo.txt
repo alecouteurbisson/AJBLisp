@@ -1,0 +1,17 @@
+Literal vectors should be immutable
+Otherwise this code self-modifies!
+
+(for (k 1 2)
+     (let ((v #(a b c d)))
+          (if (eq (vref v 2) 'c)
+              (vset v 2 'x)
+              (error 1 v "V changed") )))
+
+Could introduce a constant vector type
+This could be an almost invisible change which is
+only apparent when an attempt is made to modify
+an instance.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some form of (catch :all) might be useful

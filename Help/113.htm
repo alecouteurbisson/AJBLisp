@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>eql</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (eql &lt;this&gt; &lt;that&gt;)</h1>
+<b>Function </b><br />
+<p>
+Compares two lists or vectors for identity or any other
+objects for equality of type and value.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (eql (concat "Hi " "World!") "Hi World!")
+= t
+
+&gt; (eql  '(a b c) '(a b c))
+= nil                  ; Equal but not identical
+
+&gt; (eql 1 1)
+= t                    ; Equal integers
+
+&gt; (eql 1 1.0)
+= nil                  ; Different types
+</pre>
+</body>
+</html>

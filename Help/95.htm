@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>read</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (read [&lt;file&gt;]) (read &lt;path&gt;)</h1>
+<b>Function </b><br />
+<p>
+Read an expression from an open file. With no argument it reads from
+the console.  With one string argument it will open the file with the
+given path, read its content and then close it again.  One complete
+s-expression will be read or an error will occur.  It is not possible
+to read beyond the first s-expression when a file path is given.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (read) (a b c)
+= (a b c)
+</pre>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>gvtrans2</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (gvtrans2 &lt;win&gt; [&lt;v00&gt; &lt;v10&gt; &lt;v01&gt; &lt;v11&gt; &lt;v02&gt; &lt;v12&gt;]), (gvtrans2 &lt;win&gt; &lt;vx&gt; &lt;vy&gt;)</h1>
+<b>Function </b><br />
+<p>
+Explicitly set the windows 2D view transform or get it if
+no view transform values are given.  With three arguments
+it returns the plot coordinates corresponding to the view
+coordinates of the point supplied.
+</p><p>
+The view transform is a 3 * 2 homogeneous matrix:
+<pre>
+[ vx  vy (1.0) ]  *  [ v00 v10 ]  =  [ px py ]
+                     [ v01 v11 ]
+                     [ v02 v12 ]
+</p><p>
+</pre>
+The value 1.0 indicates that vx, vy represent a point rather
+than a vector in which case it would be 0.0.
+</p><p>
+So the view transform for points is:
+<pre>
+vpx = x * v00 + y * v01 + v02;
+vpy = x * v10 + y * v11 + v12;
+</p><p>
+</pre>
+and the view transform for vectors is:
+<pre>
+vpx = x * v00 + y * v01;
+vpy = x * v10 + y * v11;
+</p><p>
+</pre>
+Windows primitive functions are not affected except in
+that their argument coordinates will be transformed.
+Ellipses and Rectangles will scale and translate properly but
+they will always be axis-aligned even if a rotation is implied
+by the view transform.
+</p><p>
+The default view transform is (1.0, 0.0, 0.0, 1.0, -1.0, H)
+which maps the input so that the bottom left of the window
+is the origin and the scale is 1 plot unit per pixel.  H is
+the height of the drawable area.  This is upside-down compared
+to the Windows default view coordinate system.
+<pre>
+(hence v11 = -1.0 and V12 = -H)
+</pre>
+<p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+(defun test (x)
+  (println " 123456789 123456789 123456789 123456789 123456789 123456789 ")
+  (writeln '| x '|)
+  (println (write-size x))
+  (println '| x '|)
+  (println (print-size x)) )

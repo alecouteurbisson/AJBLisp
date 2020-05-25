@@ -1,0 +1,18 @@
+(defun f (a b c d)
+  (or (and a (not b))
+      (and a b d)
+      (and (not a) (not c) d) ))
+
+(defun getbits(n nv)
+  (let ((bits))
+       (for (i 0 (- nv 1))
+            (push (btst i n) bits) )
+          bits ))
+
+(defun truth-table (f nv)
+  (let ((tt) (bits))
+       (for (n (- (bshift 1 nv) 1) 0 -1)
+            (setq bits (getbits n nv))
+            (if (apply f bits)
+                (push (cons (bcnt n) bits) tt)) )
+       tt ))

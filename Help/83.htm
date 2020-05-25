@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>time-string</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (time-string &lt;fmt&gt; [&lt;itime&gt;])</h1>
+<b>Function </b><br />
+<p>
+Convert an integer time to a formatted string using the
+format string supplied.  If itime is omitted then the
+current time is used.  The format string is passed directly
+to the C-Library function strftime.  The output of this
+function is affected by the locale setting.
+</p><p>
+Some of the more useful format strings are:
+<pre>
+"%c"       Date &amp; time
+"%#c"      Long date &amp; time
+"%x"       Date
+"%#x"      Long date
+"%X"       Time
+"%A"       Day of week
+"%#c %Z"   Long date, time and timezone
+</pre>
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (time-string "%#c %Z" 333333333)
+= "25 July 1980 01:35:33 BST"
+</pre>
+</body>
+</html>

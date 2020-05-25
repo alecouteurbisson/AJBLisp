@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>tokenise</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (tokenise &lt;string&gt;)</h1>
+<b>Function </b><br />
+<p>
+Create a list of tokens from a string. Tokens can be:
+alphanumeric symbols that start with a letter, returned
+as symbols; numbers, returned as floats or anything else
+returned as a character.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (tokenise "fred+2*a")
+= (fred #\+ 2.00000000 #\* a)
+</pre>
+</body>
+</html>

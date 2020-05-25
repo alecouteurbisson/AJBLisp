@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>dir</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (dir &lt;string&gt; [t])</h1>
+<b>Function </b><br />
+<p>
+List a directory.  Returns a list of filenames matching the
+given path string which may have wildcard characters.
+</p><p>
+With a single argument, subdirectories are returned as sublists,
+each containing a single directory name. If the second
+boolean argument is true then all items are returned as
+sublists with the following structure:
+(name attrib created accessed modified).
+</p><p>
+Attrib is a string of the form "drhsa" with active attributes
+capitalised.  E.g. a readonly directory would return "DRhsa".
+created, accessed and modified are the file timestamps returned
+as integer times.
+</p><p>
+Note that the supplied path should always be complete as in
+the example below.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (dir "c:/*")
+= ("AUTOEXEC.BAT" "boot.ini" "BOOTLOG.PRV" ...
+  ... "ntldr" ("Program Files") ("Temp") ("WINDOWS"))
+
+&gt; (dir "c:/")        ; Path specifies no files
+= nil
+</pre>
+</body>
+</html>

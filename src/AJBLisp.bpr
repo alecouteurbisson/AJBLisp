@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="AJBLisp.exe"/>
+    <OBJFILES value="AJBLisp.obj Listener.obj Window.obj AJBLispInit.obj REPL.obj Eval.obj 
+      Store.obj Func.obj FuncAsm.obj GFunc.obj IO.obj Terminal.obj Random.obj 
+      RunCommand.obj lisperr.obj"/>
+    <RESFILES value="AJBLisp.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Listener.dfm Window.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl50.lib"/>
+    <PACKAGES value="vcl50.bpi vclx50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="__USELOCALES__"/>
+    <SYSDEFINES value="NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="AJBLisp.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -Q -w -Vms -Vx -Ve -xf -ff -X- -pr -a2 -6 -b- -d -k- -vi -c -w-8058 
+      -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$I- -$D- -$C- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /mv32 /m2 /kh32768 /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -GC&quot;(c) A J Le Couteur Bisson 1997 - 2007&quot; -aa -Tpe -x -Gn -M"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=3
+MinorVer=7
+Release=0
+Build=397
+Debug=1
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2057
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=AJBLisp Lisp Interpreter
+FileVersion=3.7.0.397
+InternalName=ajblisp
+LegalCopyright=(c) A J Le Couteur Bisson 1997-2005
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=3.6
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=__USELOCALES__
+Item1=__USELOCALES__;_DEBUG
+Item2=__USELOCALE
+
+[HistoryLists\hlRunParameters]
+Count=9
+Item0=Parameter &quot;a string of five words&quot; 123
+Item1=-ltest.lsp
+Item2=&quot;c:\Program Files\AJBLisp\Test.lsp&quot;
+Item3=HtmlRef.lsp
+Item4=gfxtest.lsp
+Item5=-s1000000
+Item6=-s 1000000
+Item7=-h128000 -s65536 regex.lsp
+Item8=-h12345 -s53267 &quot;a mess.lsp&quot; fred.lsp
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=..\
+Item1=..
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

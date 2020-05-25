@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>remprop</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (remprop &lt;symbol&gt; [&lt;name&gt;])</h1>
+<b>Function </b><br />
+<p>
+Remove the named property from the symbol.  If &lt;name&gt; is omitted then
+remove all properties and return the original property list. Otherwise
+returns the value of the property removed or :undefined if the named
+property was not present.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (remprop 'apple 'colour)
+= "green"                ; for example
+
+&gt; (remprop 'apple 'colour)
+= :undefined
+</pre>
+</body>
+</html>

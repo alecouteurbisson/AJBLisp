@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>push</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (push &lt;item&gt; &lt;sym&gt;)</h1>
+<b>Macro    </b><br />
+<p>
+Push any item onto the front of the list. &lt;sym&gt; must be a
+symbol and its value will be modified.  The value of sym need
+not be a list and the result will be a dotted pair in this case.
+</p><p>
+Returns the modified list. The item can be removed with pop.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (setq stack nil)
+= nil
+
+&gt; (push stack 'a)
+= (a)
+
+&gt; (push stack 'b)
+= (b a)
+
+&gt; (pop stack)
+= b
+
+&gt; (pop stack)
+= a
+
+&gt; stack
+= nil
+</pre>
+</body>
+</html>

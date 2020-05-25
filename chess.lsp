@@ -1,0 +1,25 @@
+(defun make-board nil  "                                                                ")
+
+(defun init-board nil  "rnbkqbnrpppppppp                                PPPPPPPPRNBKQBNR")
+
+(defun print-board (b)
+  (let ((idx -1))
+       (println)
+       (println "  ABCDEFGH  ")
+       (println)
+       (for (i 0 7)
+          (print (- 8 i) :space)
+          (for (j 0 7)
+               (print (char b (inc idx))) )
+          (println :space (- 8 i)) )
+       (println) 
+       (println "  ABCDEFGH  ")
+       (println) ))
+
+(defun ref2index (ref)
+  (let ((symname))
+       (setq symname (string ref))
+       (upper-case symname)
+       (+ (- (integer (char symname 0)) (integer #\A))
+          (* 8 (- (integer (char symname 1)) (integer #\1))) )))
+       

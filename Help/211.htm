@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>throw</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (throw &lt;tag&gt; [&lt;value&gt;])</h1>
+<b>Function </b><br />
+<p>
+Throws a value to a catch expression with the same tag.
+</p><p>
+The transfer of control to the catch expression is immediate
+and throw never returns (or rather it returns from the catch)
+</p><p>
+If throw is used without a matching enclosing catch then it
+propogates right up to the read-eval-print loop where an error
+is reported.  &lt;tag&gt; can be any symbol, usually a key.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (defkey :ball)
+= :ball
+
+&gt; (defun jack-in-the-box  nil
+    (when (&lt; (random 1000000) 2)
+          (throw :ball "Escaped!") ))
+= jack-in-the-box
+
+&gt; (catch :ball
+    (loop (jack-in-the-box)))  ; Loop until the ball is thrown
+= "Escaped!"                   ; after some indeterminate time
+</pre>
+</body>
+</html>

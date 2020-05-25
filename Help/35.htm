@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>append</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (append [&lt;list&gt;]...)</h1>
+<b>Function </b><br />
+<p>
+Create a single list containing the top-level items of each
+list concatenated. The rightmost argument may be an improper
+(dotted) list. The other arguments must be proper lists.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (append)
+= nil
+
+&gt; (append '(a b c) '(1 2 3))
+= (a b c 1 2 3)
+
+&gt; (append '(a b c) '(1 2 . 3))
+= (a b c 1 2 . 3)
+
+&gt; (append '(a (b c)) '((1 2) 3))
+= (a (b c) (1 2) 3)
+
+&gt; (append '(a b c) '(1 2 3 4) '(+ - * /))
+= (a b c 1 2 3 4 + - * /)
+</pre>
+</body>
+</html>

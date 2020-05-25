@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>rplacd</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (rplacd &lt;list&gt; &lt;value&gt;)</h1>
+<b>Function </b><br />
+<p>
+Replace the cdr of &lt;list&gt; with &lt;value&gt;.
+</p><p>
+This is a destructive operation and will affect all
+references to the list.  It is possible to set the
+cdr of a list or sub-list to the list itself.  This
+is OK until the resulting list is scanned (e.g. by print.)
+An endless loop will result which can be broken by
+pressing the [Esc] key.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (setq x '(1 2 3) y x)   ; x = y = (1 2 3)
+= (1 2 3)
+
+&gt; (rplacd x 'z)           ; Modify x
+= (1 . z)
+
+&gt; y
+= (1 . z)                 ; Y affected similarly
+</pre>
+</body>
+</html>

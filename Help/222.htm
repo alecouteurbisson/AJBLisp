@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>cd</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (cd [&lt;string&gt;])</h1>
+<b>Function </b><br />
+<p>
+Change the current directory and drive. This is the only
+way to change the current directory.
+(system "cd &lt;path&gt;") will not work as it only changes the
+directory for the newly created process.
+</p><p>
+Beware that (cd "c:\") and the like will apparently lock
+up the listener because the correct command is (cd "c:\\")
+or (cd "c:/").  If you get stuck like this then type ") to
+close the string and the list and re-type the command
+correctly. cd returns nil, unless no argument is given, where
+it returns the current directory as a string.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (cd)
+= "E:\Work\Prog\CPP\AJBLisp\Distribution"
+
+&gt; (cd "..")
+= nil
+
+&gt; (cd)
+= "E:\Work\Prog\CPP\AJBLisp"
+</pre>
+</body>
+</html>

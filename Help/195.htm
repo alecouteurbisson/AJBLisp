@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>for</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (for (&lt;var&gt; &lt;init&gt; &lt;to&gt; [&lt;step&gt;]) &lt;body&gt;...)</h1>
+<b>Macro    </b><br />
+<p>
+Evaluate the expressions in &lt;body&gt;... with symbol &lt;var&gt;
+taking values from &lt;init&gt; to &lt;to&gt; in steps of &lt;step&gt;.
+If step is omitted then 1 is used.  &lt;init&gt;, &lt;to&gt; and &lt;step&gt;
+must all be integers.  Counting backwards is OK if step
+is negative.  The loop ends when the next value would
+exceed &lt;to&gt; or when an enclosed (break) is executed.
+&lt;var&gt; is local to the loop.  For returns the counter value.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (for (k 1 10) (print k " "))
+1 2 3 4 5 6 7 8 9 10 = 10
+
+&gt; (for (k 10 1 -2) (print k " "))
+10 8 6 4 2 = 2
+</pre>
+</body>
+</html>

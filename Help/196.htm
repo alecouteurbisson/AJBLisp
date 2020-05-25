@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>for-each</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (for-each (&lt;var&gt; &lt;vect-or-list&gt; [&lt;index&gt;] [&lt;retn&gt;]) &lt;body&gt;...)</h1>
+<b>Macro    </b><br />
+<p>
+Evaluate the expressions in &lt;body&gt;... with symbol &lt;var&gt;
+taking its values from the top-level elements of &lt;vect-or-list&gt;
+&lt;var&gt; is local to the loop. If the symbolic argument &lt;index&gt; is
+present then it also becomes a local variable that counts from 0
+on each loop. for-each returns the value of the expression &lt;retn&gt;
+or the value of the last body expression evaluated if omitted.
+&lt;index&gt; may be null if it is not required but a return expression is.
+</p><p>
+Both &lt;var&gt; and &lt;index&gt; are valid &lt;retn&gt; values.
+break, while and until may be used to end the loop prematurely.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (for-each (k #(a b c d)) (print k " "))
+a b c d = nil
+
+&gt; (for-each (k '(a b c 1 2 3)) (until (numberp k) (string k)))
+= "1"
+
+&gt; (for-each (k '(a b c 1 2 3) i i) (when (numberp k) (println i :space k)))
+3 1
+4 2
+5 3
+= 5
+</pre>
+</body>
+</html>

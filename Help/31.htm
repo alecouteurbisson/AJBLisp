@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>length</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (length &lt;list&gt;), (length &lt;vector&gt;), (length &lt;string&gt;)</h1>
+<b>Function </b><br />
+<p>
+Return the length of a vector, list or string.
+It counts only the top level elements; elements which
+are themselves vectors or lists are counted once.
+For a string argument it returns the length of the string
+in characters.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (length '())
+= 0
+
+&gt; (length '(a b c))
+= 3
+
+&gt; (length '(a b . c))
+= 3
+
+&gt; (length #(1 2 3 4 5))
+= 5
+
+&gt; (length "Hello")
+= 5
+</pre>
+</body>
+</html>

@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////////////
+//
+//  AJBLisp - A Lisp Interpreter
+//
+//  (c) A J Le Couteur Bisson 1997-2007
+//
+////////////////////////////////////////////////////////////////////////////
+// RunCommand.cpp
+//
+// Run a command on the windows shell (cmd.exe/command.com)
+////////////////////////////////////////////////////////////////////////////
+//
+// A much modified example nicked from somewhere on the Web.
+// This is because MSDN is not exactly helpful with the details...
+// Seems to work very well
+
+unsigned long RunCommand(char *cmd, FILE *out, FILE *in, char *dir);
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>setq</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (setq &lt;symbol&gt; &lt;value&gt; [&lt;symbol&gt; &lt;value&gt;] ...)</h1>
+<b>Macro    </b><br />
+<p>
+Sets the &lt;symbol&gt;s to the &lt;value&gt;s sequentially so that
+the values may refer to the value of previously bound
+symbols. The &lt;symbol&gt; arguments are not evaluated and should
+not be quoted (setq means 'set quote'). Returns the last
+value bound.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (setq a 3 b (- a)) ; Value of b refers to new value of a
+= -3
+
+&gt; (println a :space b)
+3 -3
+= -3
+</pre>
+</body>
+</html>

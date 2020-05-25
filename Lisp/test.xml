@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx version="1.0" creator="MSR TrackDownload 1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <time>2005-07-20T15:59:17Z</time>
+  <wpt lat="50.428022" lon="-4.162523">
+    <ele>10.22</ele>
+    <name>004</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.425134" lon="-4.176511">
+    <ele>15.026</ele>
+    <name>005</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.425283" lon="-4.177753">
+    <ele>15.507</ele>
+    <name>006</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.428474" lon="-4.189788">
+    <ele>4.692</ele>
+    <name>007</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.430638" lon="-4.182961">
+    <ele>9.258</ele>
+    <name>008</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.397663" lon="-4.186262">
+    <ele>25.601</ele>
+    <name>009</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.464685" lon="-4.15082">
+    <ele>6.855</ele>
+    <name>010</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.462698" lon="-4.15213">
+    <ele>22.957</ele>
+    <name>011</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>ScenicArea</sym>
+  </wpt>
+  <wpt lat="50.473788" lon="-3.532118">
+    <name>CHER</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>House</sym>
+  </wpt>
+  <wpt lat="50.434097" lon="-4.152296">
+    <ele>75.348</ele>
+    <name>HOME</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>House</sym>
+  </wpt>
+  <wpt lat="50.088408" lon="-5.310473">
+    <ele>-0.114</ele>
+    <name>MUM+DAD</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <sym>House</sym>
+  </wpt>
+  <rte>
+    <name>PLYMTH LOOP</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <rtept lat="50.433598" lon="-4.152161">
+      <name>PLYMTH</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433722" lon="-4.151953">
+      <name>LNTNCL</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433568" lon="-4.151814">
+      <name>LNTN 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433383" lon="-4.151802">
+      <name>LNTN 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433383" lon="-4.151606">
+      <name>LNTNRD</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433326" lon="-4.151362">
+      <name>LNTN 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433297" lon="-4.151244">
+      <name>ALRNLN</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433095" lon="-4.15094">
+      <name>LNTN 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.432911" lon="-4.150729">
+      <name>LNTN 5</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.431739" lon="-4.151387">
+      <name>WHTSNC</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.431539" lon="-4.151586">
+      <name>WHTS 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.430207" lon="-4.153776">
+      <name>WHTS 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.429821" lon="-4.15442">
+      <name>WHTS 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.429521" lon="-4.155278">
+      <name>WHTS 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428915" lon="-4.156026">
+      <name>FRSTRT</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428785" lon="-4.156183">
+      <name>FRST 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428612" lon="-4.156265">
+      <name>FRST 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428319" lon="-4.156265">
+      <name>FRST 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427915" lon="-4.156382">
+      <name>FRST 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427767" lon="-4.156312">
+      <name>FRST 5</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427718" lon="-4.156222">
+      <name>FRST 6</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427151" lon="-4.154004">
+      <name>TMRTNF</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427035" lon="-4.153282">
+      <name>TMRT 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427156" lon="-4.152765">
+      <name>TMRT 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427246" lon="-4.152102">
+      <name>TMRT 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427332" lon="-4.151587">
+      <name>HWYB33</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427233" lon="-4.151398">
+      <name>HWYB 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.426501" lon="-4.150589">
+      <name>HWYB 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.425753" lon="-4.149226">
+      <name>HWYB 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.425351" lon="-4.148227">
+      <name>HWYB 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.424457" lon="-4.146438">
+      <name>DUNTRD</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.42371" lon="-4.144847">
+      <name>HWYB 5</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.423555" lon="-4.144506">
+      <name>STHWYD</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.423427" lon="-4.144163">
+      <name>HWYB 6</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.423083" lon="-4.143519">
+      <name>HWYB 7</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.422435" lon="-4.142568">
+      <name>HWYB 8</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.422246" lon="-4.142194">
+      <name>HWYB 9</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.421746" lon="-4.14074">
+      <name>HWY 10</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.42171" lon="-4.140644">
+      <name>HWY 11</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.420631" lon="-4.139135">
+      <name>HWY 12</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.420339" lon="-4.138864">
+      <name>HWY 13</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418788" lon="-4.138067">
+      <name>HWY 14</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418433" lon="-4.13783">
+      <name>HWY 15</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.417737" lon="-4.137061">
+      <name>HWY 16</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416898" lon="-4.136432">
+      <name>HWY 17</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416613" lon="-4.136106">
+      <name>HWY 18</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416439" lon="-4.136054">
+      <name>HWY 19</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.41625" lon="-4.136055">
+      <name>HWY 20</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.415749" lon="-4.13617">
+      <name>HWY 21</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.415553" lon="-4.136293">
+      <name>HWY 22</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.415316" lon="-4.13661">
+      <name>BDSHDR</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.415728" lon="-4.137393">
+      <name>BDSH 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416045" lon="-4.138455">
+      <name>LNCSTR</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.41613" lon="-4.139047">
+      <name>BDSH 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416174" lon="-4.140515">
+      <name>BDMNRD</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416262" lon="-4.141212">
+      <name>BDSH 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416601" lon="-4.143123">
+      <name>BDSH 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.416911" lon="-4.146359">
+      <name>BDSH 5</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.417161" lon="-4.148369">
+      <name>BDSH 6</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.417377" lon="-4.14936">
+      <name>BDSH 7</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.41759" lon="-4.150043">
+      <name>BDSH 8</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.417848" lon="-4.151158">
+      <name>WHTLGH</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.417891" lon="-4.15133">
+      <name>WHTL 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418147" lon="-4.152572">
+      <name>BDSH 9</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418234" lon="-4.153476">
+      <name>BDS 10</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418277" lon="-4.154162">
+      <name>BDS 11</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418238" lon="-4.155317">
+      <name>BDS 12</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418244" lon="-4.155537">
+      <name>BDS 13</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418286" lon="-4.155872">
+      <name>BDS 14</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418363" lon="-4.156179">
+      <name>BDS 15</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418577" lon="-4.156823">
+      <name>TNTNVN</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.419082" lon="-4.157872">
+      <name>BDS 16</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.419221" lon="-4.158368">
+      <name>WHTL 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>SmallCity</sym>
+    </rtept>
+    <rtept lat="50.419257" lon="-4.158475">
+      <name>BDS 17</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.419257" lon="-4.158978">
+      <name>BDS 18</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.419221" lon="-4.159269">
+      <name>NRWCHV</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.419111" lon="-4.159728">
+      <name>BDS 19</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418999" lon="-4.160059">
+      <name>BDS 20</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418534" lon="-4.161201">
+      <name>CNTRBR</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418363" lon="-4.161673">
+      <name>MLFRDL</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.418635" lon="-4.161952">
+      <name>MLFR 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.419284" lon="-4.162944">
+      <name>MLFR 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.41965" lon="-4.163432">
+      <name>TRDRVE</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.420965" lon="-4.164663">
+      <name>MLFR 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.42141" lon="-4.164805">
+      <name>MLFR 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.421655" lon="-4.164765">
+      <name>MLFR 5</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.422096" lon="-4.164462">
+      <name>HLYPRK</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.422311" lon="-4.164205">
+      <name>NRWC 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.42246" lon="-4.163981">
+      <name>MLFR 6</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.423205" lon="-4.162431">
+      <name>MLFR 7</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.423727" lon="-4.161072">
+      <name>MLFR 8</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.424244" lon="-4.160427">
+      <name>MLFR 9</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.424874" lon="-4.160132">
+      <name>MLF 10</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.425327" lon="-4.160213">
+      <name>MLF 11</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.425573" lon="-4.160213">
+      <name>MLF 12</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.426106" lon="-4.159967">
+      <name>MLF 13</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.426401" lon="-4.159711">
+      <name>MLF 14</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.426622" lon="-4.159195">
+      <name>MLF 15</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.426772" lon="-4.158591">
+      <name>MLF 16</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.426774" lon="-4.158011">
+      <name>MLF 17</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.426902" lon="-4.15734">
+      <name>MLF 18</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427292" lon="-4.156263">
+      <name>MLF 19</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427718" lon="-4.156222">
+      <name>FRST 6</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427767" lon="-4.156312">
+      <name>FRST 5</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.427915" lon="-4.156382">
+      <name>FRST 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428319" lon="-4.156265">
+      <name>FRST 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428612" lon="-4.156265">
+      <name>FRST 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428785" lon="-4.156183">
+      <name>FRST 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.428915" lon="-4.156026">
+      <name>FRSTRT</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.429521" lon="-4.155278">
+      <name>WHTS 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.429821" lon="-4.15442">
+      <name>WHTS 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.430207" lon="-4.153776">
+      <name>WHTS 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.431539" lon="-4.151586">
+      <name>WHTS 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.431739" lon="-4.151387">
+      <name>WHTSNC</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.432911" lon="-4.150729">
+      <name>LNTN 5</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433095" lon="-4.15094">
+      <name>LNTN 4</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433297" lon="-4.151244">
+      <name>ALRNLN</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433326" lon="-4.151362">
+      <name>LNTN 3</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433383" lon="-4.151606">
+      <name>LNTNRD</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433383" lon="-4.151802">
+      <name>LNTN 2</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433568" lon="-4.151814">
+      <name>LNTN 1</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433722" lon="-4.151953">
+      <name>LNTNCL</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+    <rtept lat="50.433598" lon="-4.152161">
+      <name>PLYMTH</name>
+      <src>Garmin eTrex Legend Software Version 3.70</src>
+      <sym>Dot</sym>
+    </rtept>
+  </rte>
+  <trk>
+    <name>08-JUL-05</name>
+    <src>Garmin eTrex Legend Software Version 3.70</src>
+    <trkseg>
+      <trkpt lat="50.433598" lon="-4.152167">
+        <ele>58.766</ele>
+      </trkpt>
+      <trkpt lat="50.433555" lon="-4.152339">
+        <ele>99.141</ele>
+      </trkpt>
+      <trkpt lat="50.433662" lon="-4.152296">
+        <ele>77.511</ele>
+      </trkpt>
+      <trkpt lat="50.433726" lon="-4.151931">
+        <ele>78.473</ele>
+      </trkpt>
+      <trkpt lat="50.432911" lon="-4.150751">
+        <ele>75.589</ele>
+      </trkpt>
+      <trkpt lat="50.431731" lon="-4.151373">
+        <ele>61.169</ele>
+      </trkpt>
+      <trkpt lat="50.43025" lon="-4.15369">
+        <ele>41.462</ele>
+      </trkpt>
+      <trkpt lat="50.429606" lon="-4.155064">
+        <ele>31.849</ele>
+      </trkpt>
+      <trkpt lat="50.42892" lon="-4.156094">
+        <ele>27.043</ele>
+      </trkpt>
+      <trkpt lat="50.428083" lon="-4.156265">
+        <ele>15.988</ele>
+      </trkpt>
+      <trkpt lat="50.427718" lon="-4.155836">
+        <ele>14.065</ele>
+      </trkpt>
+      <trkpt lat="50.42716" lon="-4.153733">
+        <ele>13.584</ele>
+      </trkpt>
+      <trkpt lat="50.427375" lon="-4.151695">
+        <ele>20.313</ele>
+      </trkpt>
+      <trkpt lat="50.427139" lon="-4.150965">
+        <ele>21.275</ele>
+      </trkpt>
+      <trkpt lat="50.425916" lon="-4.149592">
+        <ele>21.275</ele>
+      </trkpt>
+      <trkpt lat="50.424349" lon="-4.14633">
+        <ele>26.081</ele>
+      </trkpt>
+      <trkpt lat="50.423491" lon="-4.143991">
+        <ele>26.562</ele>
+      </trkpt>
+      <trkpt lat="50.422311" lon="-4.142168">
+        <ele>38.578</ele>
+      </trkpt>
+      <trkpt lat="50.42186" lon="-4.140837">
+        <ele>47.23</ele>
+      </trkpt>
+      <trkpt lat="50.420637" lon="-4.139035">
+        <ele>55.401</ele>
+      </trkpt>
+      <trkpt lat="50.418749" lon="-4.137919">
+        <ele>65.495</ele>
+      </trkpt>
+      <trkpt lat="50.41671" lon="-4.135923">
+        <ele>74.147</ele>
+      </trkpt>
+      <trkpt lat="50.415852" lon="-4.135945">
+        <ele>80.876</ele>
+      </trkpt>
+      <trkpt lat="50.415359" lon="-4.13631">
+        <ele>80.876</ele>
+      </trkpt>
+      <trkpt lat="50.41435" lon="-4.135022">
+        <ele>89.047</ele>
+      </trkpt>
+      <trkpt lat="50.413406" lon="-4.134336">
+        <ele>96.738</ele>
+      </trkpt>
+      <trkpt lat="50.411389" lon="-4.133391">
+        <ele>101.063</ele>
+      </trkpt>
+      <trkpt lat="50.411153" lon="-4.132962">
+        <ele>102.025</ele>
+      </trkpt>
+      <trkpt lat="50.410852" lon="-4.132876">
+        <ele>101.063</ele>
+      </trkpt>
+      <trkpt lat="50.41023" lon="-4.134014">
+        <ele>99.141</ele>
+      </trkpt>
+      <trkpt lat="50.409544" lon="-4.134014">
+        <ele>100.102</ele>
+      </trkpt>
+      <trkpt lat="50.408814" lon="-4.133005">
+        <ele>102.505</ele>
+      </trkpt>
+      <trkpt lat="50.408835" lon="-4.132426">
+        <ele>103.467</ele>
+      </trkpt>
+      <trkpt lat="50.409629" lon="-4.132104">
+        <ele>101.544</ele>
+      </trkpt>
+      <trkpt lat="50.409865" lon="-4.132361">
+        <ele>99.622</ele>
+      </trkpt>
+      <trkpt lat="50.409737" lon="-4.132662">
+        <ele>99.141</ele>
+      </trkpt>
+      <trkpt lat="50.40875" lon="-4.133649">
+        <ele>95.296</ele>
+      </trkpt>
+      <trkpt lat="50.404093" lon="-4.134464">
+        <ele>96.738</ele>
+      </trkpt>
+      <trkpt lat="50.402527" lon="-4.134293">
+        <ele>89.047</ele>
+      </trkpt>
+      <trkpt lat="50.401089" lon="-4.134636">
+        <ele>76.55</ele>
+      </trkpt>
+      <trkpt lat="50.400724" lon="-4.134014">
+        <ele>73.666</ele>
+      </trkpt>
+      <trkpt lat="50.400488" lon="-4.131095">
+        <ele>70.782</ele>
+      </trkpt>
+      <trkpt lat="50.399845" lon="-4.128821">
+        <ele>56.843</ele>
+      </trkpt>
+      <trkpt lat="50.399072" lon="-4.127426">
+        <ele>50.595</ele>
+      </trkpt>
+      <trkpt lat="50.397227" lon="-4.125023">
+        <ele>42.424</ele>
+      </trkpt>
+      <trkpt lat="50.396819" lon="-4.12425">
+        <ele>39.54</ele>
+      </trkpt>
+      <trkpt lat="50.39609" lon="-4.121418">
+        <ele>31.849</ele>
+      </trkpt>
+      <trkpt lat="50.396154" lon="-4.114895">
+        <ele>17.91</ele>
+      </trkpt>
+      <trkpt lat="50.394888" lon="-4.108994">
+        <ele>13.584</ele>
+      </trkpt>
+      <trkpt lat="50.394845" lon="-4.106698">
+        <ele>12.142</ele>
+      </trkpt>
+      <trkpt lat="50.395896" lon="-4.100089">
+        <ele>9.739</ele>
+      </trkpt>
+      <trkpt lat="50.395789" lon="-4.098265">
+        <ele>9.258</ele>
+      </trkpt>
+      <trkpt lat="50.395446" lon="-4.09657">
+        <ele>9.258</ele>
+      </trkpt>
+      <trkpt lat="50.39257" lon="-4.090347">
+        <ele>7.816</ele>
+      </trkpt>
+      <trkpt lat="50.391133" lon="-4.086335">
+        <ele>19.352</ele>
+      </trkpt>
+      <trkpt lat="50.389781" lon="-4.084146">
+        <ele>21.755</ele>
+      </trkpt>
+      <trkpt lat="50.385532" lon="-4.080005">
+        <ele>32.33</ele>
+      </trkpt>
+      <trkpt lat="50.38167" lon="-4.075799">
+        <ele>52.037</ele>
+      </trkpt>
+      <trkpt lat="50.379868" lon="-4.072688">
+        <ele>63.573</ele>
+      </trkpt>
+      <trkpt lat="50.37828" lon="-4.068782">
+        <ele>65.976</ele>
+      </trkpt>
+      <trkpt lat="50.37725" lon="-4.064877">
+        <ele>65.014</ele>
+      </trkpt>
+      <trkpt lat="50.37667" lon="-4.060736">
+        <ele>64.534</ele>
+      </trkpt>
+      <trkpt lat="50.376585" lon="-4.056079">
+        <ele>71.263</ele>
+      </trkpt>
+      <trkpt lat="50.376778" lon="-4.040952">
+        <ele>88.086</ele>
+      </trkpt>
+      <trkpt lat="50.377014" lon="-4.035394">
+        <ele>89.528</ele>
+      </trkpt>
+      <trkpt lat="50.377657" lon="-4.030824">
+        <ele>87.605</ele>
+      </trkpt>
+      <trkpt lat="50.378773" lon="-4.02503">
+        <ele>81.357</ele>
+      </trkpt>
+      <trkpt lat="50.379653" lon="-4.019322">
+        <ele>73.666</ele>
+      </trkpt>
+      <trkpt lat="50.379803" lon="-4.01458">
+        <ele>69.34</ele>
+      </trkpt>
+      <trkpt lat="50.379546" lon="-4.009709">
+        <ele>68.86</ele>
+      </trkpt>
+      <trkpt lat="50.379653" lon="-4.005911">
+        <ele>67.898</ele>
+      </trkpt>
+      <trkpt lat="50.380254" lon="-4.002607">
+        <ele>68.379</ele>
+      </trkpt>
+      <trkpt lat="50.381563" lon="-3.998852">
+        <ele>67.898</ele>
+      </trkpt>
+      <trkpt lat="50.382421" lon="-3.995719">
+        <ele>70.782</ele>
+      </trkpt>
+      <trkpt lat="50.382893" lon="-3.992093">
+        <ele>73.666</ele>
+      </trkpt>
+      <trkpt lat="50.382829" lon="-3.980377">
+        <ele>74.627</ele>
+      </trkpt>
+      <trkpt lat="50.385082" lon="-3.96188">
+        <ele>57.324</ele>
+      </trkpt>
+      <trkpt lat="50.385125" lon="-3.950164">
+        <ele>71.263</ele>
+      </trkpt>
+      <trkpt lat="50.385447" lon="-3.947117">
+        <ele>70.302</ele>
+      </trkpt>
+      <trkpt lat="50.386198" lon="-3.943405">
+        <ele>63.092</ele>
+      </trkpt>
+      <trkpt lat="50.386777" lon="-3.934972">
+        <ele>52.037</ele>
+      </trkpt>
+      <trkpt lat="50.386519" lon="-3.931088">
+        <ele>49.153</ele>
+      </trkpt>
+      <trkpt lat="50.384502" lon="-3.915253">
+        <ele>57.805</ele>
+      </trkpt>
+      <trkpt lat="50.384288" lon="-3.911111">
+        <ele>61.65</ele>
+      </trkpt>
+      <trkpt lat="50.384459" lon="-3.907034">
+        <ele>65.976</ele>
+      </trkpt>
+      <trkpt lat="50.38491" lon="-3.903322">
+        <ele>69.821</ele>
+      </trkpt>
+      <trkpt lat="50.385768" lon="-3.899417">
+        <ele>75.108</ele>
+      </trkpt>
+      <trkpt lat="50.386884" lon="-3.895984">
+        <ele>81.357</ele>
+      </trkpt>
+      <trkpt lat="50.389931" lon="-3.889074">
+        <ele>87.605</ele>
+      </trkpt>
+      <trkpt lat="50.393622" lon="-3.876607">
+        <ele>98.18</ele>
+      </trkpt>
+      <trkpt lat="50.395424" lon="-3.871093">
+        <ele>109.235</ele>
+      </trkpt>
+      <trkpt lat="50.399179" lon="-3.863969">
+        <ele>126.058</ele>
+      </trkpt>
+      <trkpt lat="50.401475" lon="-3.856716">
+        <ele>140.477</ele>
+      </trkpt>
+      <trkpt lat="50.402849" lon="-3.854442">
+        <ele>145.284</ele>
+      </trkpt>
+      <trkpt lat="50.404458" lon="-3.852811">
+        <ele>146.245</ele>
+      </trkpt>
+      <trkpt lat="50.409372" lon="-3.849549">
+        <ele>130.864</ele>
+      </trkpt>
+      <trkpt lat="50.411689" lon="-3.847167">
+        <ele>124.135</ele>
+      </trkpt>
+      <trkpt lat="50.416067" lon="-3.840644">
+        <ele>106.351</ele>
+      </trkpt>
+      <trkpt lat="50.417247" lon="-3.838048">
+        <ele>107.312</ele>
+      </trkpt>
+      <trkpt lat="50.418084" lon="-3.835044">
+        <ele>111.157</ele>
+      </trkpt>
+      <trkpt lat="50.421431" lon="-3.820066">
+        <ele>118.848</ele>
+      </trkpt>
+      <trkpt lat="50.422654" lon="-3.816934">
+        <ele>109.235</ele>
+      </trkpt>
+      <trkpt lat="50.425551" lon="-3.811204">
+        <ele>115.483</ele>
+      </trkpt>
+      <trkpt lat="50.428212" lon="-3.806677">
+        <ele>129.422</ele>
+      </trkpt>
+      <trkpt lat="50.430014" lon="-3.804295">
+        <ele>139.035</ele>
+      </trkpt>
+      <trkpt lat="50.431988" lon="-3.802471">
+        <ele>144.323</ele>
+      </trkpt>
+      <trkpt lat="50.433297" lon="-3.801634">
+        <ele>145.765</ele>
+      </trkpt>
+      <trkpt lat="50.434048" lon="-3.801699">
+        <ele>145.765</ele>
+      </trkpt>
+      <trkpt lat="50.434177" lon="-3.802471">
+        <ele>147.687</ele>
+      </trkpt>
+      <trkpt lat="50.433855" lon="-3.803201">
+        <ele>151.052</ele>
+      </trkpt>
+      <trkpt lat="50.433447" lon="-3.803222">
+        <ele>152.013</ele>
+      </trkpt>
+      <trkpt lat="50.433168" lon="-3.802793">
+        <ele>152.494</ele>
+      </trkpt>
+      <trkpt lat="50.431924" lon="-3.800218">
+        <ele>150.571</ele>
+      </trkpt>
+      <trkpt lat="50.431645" lon="-3.798416">
+        <ele>150.09</ele>
+      </trkpt>
+      <trkpt lat="50.431602" lon="-3.795497">
+        <ele>144.323</ele>
+      </trkpt>
+      <trkpt lat="50.432181" lon="-3.789961">
+        <ele>136.632</ele>
+      </trkpt>
+      <trkpt lat="50.431795" lon="-3.784962">
+        <ele>127.019</ele>
+      </trkpt>
+      <trkpt lat="50.431452" lon="-3.783073">
+        <ele>125.577</ele>
+      </trkpt>
+      <trkpt lat="50.430508" lon="-3.779533">
+        <ele>125.577</ele>
+      </trkpt>
+      <trkpt lat="50.429971" lon="-3.775156">
+        <ele>125.577</ele>
+      </trkpt>
+      <trkpt lat="50.431259" lon="-3.771315">
+        <ele>124.135</ele>
+      </trkpt>
+      <trkpt lat="50.431023" lon="-3.76874">
+        <ele>124.616</ele>
+      </trkpt>
+      <trkpt lat="50.430422" lon="-3.766809">
+        <ele>122.212</ele>
+      </trkpt>
+      <trkpt lat="50.430079" lon="-3.764942">
+        <ele>120.77</ele>
+      </trkpt>
+      <trkpt lat="50.429864" lon="-3.762753">
+        <ele>114.522</ele>
+      </trkpt>
+      <trkpt lat="50.429993" lon="-3.760242">
+        <ele>102.505</ele>
+      </trkpt>
+      <trkpt lat="50.430079" lon="-3.759749">
+        <ele>99.622</ele>
+      </trkpt>
+      <trkpt lat="50.430593" lon="-3.758891">
+        <ele>93.854</ele>
+      </trkpt>
+      <trkpt lat="50.431688" lon="-3.75829">
+        <ele>94.815</ele>
+      </trkpt>
+      <trkpt lat="50.432417" lon="-3.757346">
+        <ele>95.296</ele>
+      </trkpt>
+      <trkpt lat="50.433383" lon="-3.75417">
+        <ele>93.854</ele>
+      </trkpt>
+      <trkpt lat="50.433469" lon="-3.753226">
+        <ele>91.45</ele>
+      </trkpt>
+      <trkpt lat="50.433362" lon="-3.750544">
+        <ele>82.799</ele>
+      </trkpt>
+      <trkpt lat="50.433726" lon="-3.748462">
+        <ele>79.434</ele>
+      </trkpt>
+      <trkpt lat="50.437095" lon="-3.741188">
+        <ele>65.014</ele>
+      </trkpt>
+      <trkpt lat="50.438061" lon="-3.737969">
+        <ele>57.324</ele>
+      </trkpt>
+      <trkpt lat="50.439391" lon="-3.734429">
+        <ele>53.479</ele>
+      </trkpt>
+      <trkpt lat="50.440979" lon="-3.731446">
+        <ele>50.114</ele>
+      </trkpt>
+      <trkpt lat="50.442374" lon="-3.727927">
+        <ele>47.711</ele>
+      </trkpt>
+      <trkpt lat="50.442567" lon="-3.727241">
+        <ele>47.711</ele>
+      </trkpt>
+      <trkpt lat="50.442631" lon="-3.724215">
+        <ele>48.192</ele>
+      </trkpt>
+      <trkpt lat="50.442438" lon="-3.72134">
+        <ele>47.23</ele>
+      </trkpt>
+      <trkpt lat="50.442803" lon="-3.719044">
+        <ele>44.346</ele>
+      </trkpt>
+      <trkpt lat="50.443575" lon="-3.716834">
+        <ele>37.136</ele>
+      </trkpt>
+      <trkpt lat="50.44482" lon="-3.715096">
+        <ele>32.811</ele>
+      </trkpt>
+      <trkpt lat="50.446579" lon="-3.709581">
+        <ele>18.391</ele>
+      </trkpt>
+      <trkpt lat="50.446579" lon="-3.707864">
+        <ele>18.871</ele>
+      </trkpt>
+      <trkpt lat="50.446279" lon="-3.706234">
+        <ele>17.91</ele>
+      </trkpt>
+      <trkpt lat="50.444713" lon="-3.7028">
+        <ele>17.43</ele>
+      </trkpt>
+      <trkpt lat="50.444198" lon="-3.702285">
+        <ele>17.43</ele>
+      </trkpt>
+      <trkpt lat="50.443211" lon="-3.701835">
+        <ele>18.871</ele>
+      </trkpt>
+      <trkpt lat="50.441751" lon="-3.700354">
+        <ele>17.91</ele>
+      </trkpt>
+      <trkpt lat="50.441151" lon="-3.69853">
+        <ele>17.43</ele>
+      </trkpt>
+      <trkpt lat="50.4404" lon="-3.696942">
+        <ele>15.026</ele>
+      </trkpt>
+      <trkpt lat="50.439219" lon="-3.694947">
+        <ele>15.988</ele>
+      </trkpt>
+      <trkpt lat="50.438147" lon="-3.69426">
+        <ele>18.391</ele>
+      </trkpt>
+      <trkpt lat="50.436194" lon="-3.692586">
+        <ele>18.391</ele>
+      </trkpt>
+      <trkpt lat="50.435593" lon="-3.691943">
+        <ele>18.871</ele>
+      </trkpt>
+      <trkpt lat="50.435078" lon="-3.691106">
+        <ele>17.91</ele>
+      </trkpt>
+      <trkpt lat="50.434799" lon="-3.690548">
+        <ele>16.468</ele>
+      </trkpt>
+      <trkpt lat="50.434499" lon="-3.689303">
+        <ele>13.104</ele>
+      </trkpt>
+      <trkpt lat="50.433898" lon="-3.685999">
+        <ele>9.739</ele>
+      </trkpt>
+      <trkpt lat="50.433662" lon="-3.68602">
+        <ele>8.778</ele>
+      </trkpt>
+      <trkpt lat="50.433555" lon="-3.687007">
+        <ele>9.258</ele>
+      </trkpt>
+      <trkpt lat="50.433598" lon="-3.685763">
+        <ele>-50.343</ele>
+      </trkpt>
+      <trkpt lat="50.433898" lon="-3.686235">
+        <ele>4.932</ele>
+      </trkpt>
+      <trkpt lat="50.433662" lon="-3.685269">
+        <ele>5.894</ele>
+      </trkpt>
+      <trkpt lat="50.433512" lon="-3.683102">
+        <ele>8.778</ele>
+      </trkpt>
+      <trkpt lat="50.433233" lon="-3.681901">
+        <ele>9.258</ele>
+      </trkpt>
+      <trkpt lat="50.432203" lon="-3.678961">
+        <ele>14.546</ele>
+      </trkpt>
+      <trkpt lat="50.431452" lon="-3.678339">
+        <ele>16.468</ele>
+      </trkpt>
+      <trkpt lat="50.43128" lon="-3.677588">
+        <ele>17.43</ele>
+      </trkpt>
+      <trkpt lat="50.432053" lon="-3.676472">
+        <ele>24.159</ele>
+      </trkpt>
+      <trkpt lat="50.432632" lon="-3.67512">
+        <ele>30.407</ele>
+      </trkpt>
+      <trkpt lat="50.432911" lon="-3.673382">
+        <ele>35.694</ele>
+      </trkpt>
+      <trkpt lat="50.432761" lon="-3.671794">
+        <ele>43.865</ele>
+      </trkpt>
+      <trkpt lat="50.432739" lon="-3.665893">
+        <ele>62.611</ele>
+      </trkpt>
+      <trkpt lat="50.433469" lon="-3.66128">
+        <ele>55.401</ele>
+      </trkpt>
+      <trkpt lat="50.433297" lon="-3.659949">
+        <ele>53.959</ele>
+      </trkpt>
+      <trkpt lat="50.431774" lon="-3.657568">
+        <ele>40.501</ele>
+      </trkpt>
+      <trkpt lat="50.430808" lon="-3.655529">
+        <ele>35.214</ele>
+      </trkpt>
+      <trkpt lat="50.429757" lon="-3.649435">
+        <ele>40.02</ele>
+      </trkpt>
+      <trkpt lat="50.429628" lon="-3.647633">
+        <ele>43.385</ele>
+      </trkpt>
+      <trkpt lat="50.4298" lon="-3.645294">
+        <ele>49.153</ele>
+      </trkpt>
+      <trkpt lat="50.429392" lon="-3.642976">
+        <ele>63.092</ele>
+      </trkpt>
+      <trkpt lat="50.429521" lon="-3.641603">
+        <ele>65.014</ele>
+      </trkpt>
+      <trkpt lat="50.430722" lon="-3.636732">
+        <ele>77.511</ele>
+      </trkpt>
+      <trkpt lat="50.43304" lon="-3.63287">
+        <ele>87.125</ele>
+      </trkpt>
+      <trkpt lat="50.433254" lon="-3.63169">
+        <ele>90.008</ele>
+      </trkpt>
+      <trkpt lat="50.432096" lon="-3.628857">
+        <ele>97.699</ele>
+      </trkpt>
+      <trkpt lat="50.431752" lon="-3.625424">
+        <ele>95.296</ele>
+      </trkpt>
+      <trkpt lat="50.43025" lon="-3.620574">
+        <ele>90.489</ele>
+      </trkpt>
+      <trkpt lat="50.429821" lon="-3.618257">
+        <ele>88.086</ele>
+      </trkpt>
+      <trkpt lat="50.42922" lon="-3.617506">
+        <ele>89.528</ele>
+      </trkpt>
+      <trkpt lat="50.428984" lon="-3.617377">
+        <ele>90.008</ele>
+      </trkpt>
+      <trkpt lat="50.428641" lon="-3.616626">
+        <ele>86.644</ele>
+      </trkpt>
+      <trkpt lat="50.428448" lon="-3.613408">
+        <ele>79.915</ele>
+      </trkpt>
+      <trkpt lat="50.428855" lon="-3.611412">
+        <ele>77.992</ele>
+      </trkpt>
+      <trkpt lat="50.429134" lon="-3.604288">
+        <ele>58.766</ele>
+      </trkpt>
+      <trkpt lat="50.429628" lon="-3.60064">
+        <ele>52.998</ele>
+      </trkpt>
+      <trkpt lat="50.429521" lon="-3.599825">
+        <ele>51.075</ele>
+      </trkpt>
+      <trkpt lat="50.428684" lon="-3.59695">
+        <ele>48.672</ele>
+      </trkpt>
+      <trkpt lat="50.42834" lon="-3.59401">
+        <ele>55.882</ele>
+      </trkpt>
+      <trkpt lat="50.428662" lon="-3.589289">
+        <ele>40.02</ele>
+      </trkpt>
+      <trkpt lat="50.42892" lon="-3.58916">
+        <ele>39.059</ele>
+      </trkpt>
+      <trkpt lat="50.430615" lon="-3.589675">
+        <ele>39.059</ele>
+      </trkpt>
+      <trkpt lat="50.433512" lon="-3.588667">
+        <ele>37.617</ele>
+      </trkpt>
+      <trkpt lat="50.434842" lon="-3.587637">
+        <ele>40.501</ele>
+      </trkpt>
+      <trkpt lat="50.435636" lon="-3.587701">
+        <ele>45.307</ele>
+      </trkpt>
+      <trkpt lat="50.437438" lon="-3.589633">
+        <ele>58.285</ele>
+      </trkpt>
+      <trkpt lat="50.440056" lon="-3.590856">
+        <ele>80.876</ele>
+      </trkpt>
+      <trkpt lat="50.441215" lon="-3.591027">
+        <ele>87.125</ele>
+      </trkpt>
+      <trkpt lat="50.445185" lon="-3.590598">
+        <ele>109.235</ele>
+      </trkpt>
+      <trkpt lat="50.446236" lon="-3.590727">
+        <ele>110.196</ele>
+      </trkpt>
+      <trkpt lat="50.447738" lon="-3.591263">
+        <ele>124.135</ele>
+      </trkpt>
+      <trkpt lat="50.44997" lon="-3.592529">
+        <ele>137.113</ele>
+      </trkpt>
+      <trkpt lat="50.45145" lon="-3.591757">
+        <ele>133.748</ele>
+      </trkpt>
+      <trkpt lat="50.452266" lon="-3.590963">
+        <ele>131.345</ele>
+      </trkpt>
+      <trkpt lat="50.454025" lon="-3.590448">
+        <ele>128.942</ele>
+      </trkpt>
+      <trkpt lat="50.455742" lon="-3.590684">
+        <ele>132.306</ele>
+      </trkpt>
+      <trkpt lat="50.457029" lon="-3.591392">
+        <ele>136.151</ele>
+      </trkpt>
+      <trkpt lat="50.460291" lon="-3.590448">
+        <ele>128.461</ele>
+      </trkpt>
+      <trkpt lat="50.462136" lon="-3.589332">
+        <ele>124.616</ele>
+      </trkpt>
+      <trkpt lat="50.464754" lon="-3.585534">
+        <ele>132.306</ele>
+      </trkpt>
+      <trkpt lat="50.468166" lon="-3.582702">
+        <ele>134.709</ele>
+      </trkpt>
+      <trkpt lat="50.469775" lon="-3.581822">
+        <ele>139.035</ele>
+      </trkpt>
+      <trkpt lat="50.471427" lon="-3.581843">
+        <ele>142.881</ele>
+      </trkpt>
+      <trkpt lat="50.472715" lon="-3.582273">
+        <ele>143.842</ele>
+      </trkpt>
+      <trkpt lat="50.473509" lon="-3.582809">
+        <ele>143.842</ele>
+      </trkpt>
+      <trkpt lat="50.475526" lon="-3.583453">
+        <ele>139.997</ele>
+      </trkpt>
+      <trkpt lat="50.477242" lon="-3.583195">
+        <ele>132.787</ele>
+      </trkpt>
+      <trkpt lat="50.478315" lon="-3.582573">
+        <ele>127.5</ele>
+      </trkpt>
+      <trkpt lat="50.479624" lon="-3.581071">
+        <ele>116.925</ele>
+      </trkpt>
+      <trkpt lat="50.482585" lon="-3.575578">
+        <ele>84.721</ele>
+      </trkpt>
+      <trkpt lat="50.484946" lon="-3.572938">
+        <ele>77.511</ele>
+      </trkpt>
+      <trkpt lat="50.487456" lon="-3.568261">
+        <ele>49.633</ele>
+      </trkpt>
+      <trkpt lat="50.486791" lon="-3.567166">
+        <ele>47.23</ele>
+      </trkpt>
+      <trkpt lat="50.486383" lon="-3.565385">
+        <ele>48.672</ele>
+      </trkpt>
+      <trkpt lat="50.486255" lon="-3.563004">
+        <ele>48.672</ele>
+      </trkpt>
+      <trkpt lat="50.486856" lon="-3.558776">
+        <ele>49.153</ele>
+      </trkpt>
+      <trkpt lat="50.486941" lon="-3.556845">
+        <ele>49.633</ele>
+      </trkpt>
+      <trkpt lat="50.486577" lon="-3.554571">
+        <ele>51.556</ele>
+      </trkpt>
+      <trkpt lat="50.485804" lon="-3.552704">
+        <ele>53.479</ele>
+      </trkpt>
+      <trkpt lat="50.484753" lon="-3.551137">
+        <ele>53.959</ele>
+      </trkpt>
+      <trkpt lat="50.483251" lon="-3.549678">
+        <ele>52.517</ele>
+      </trkpt>
+      <trkpt lat="50.483315" lon="-3.549206">
+        <ele>53.959</ele>
+      </trkpt>
+      <trkpt lat="50.483894" lon="-3.54794">
+        <ele>60.208</ele>
+      </trkpt>
+      <trkpt lat="50.484238" lon="-3.54646">
+        <ele>64.053</ele>
+      </trkpt>
+      <trkpt lat="50.484324" lon="-3.545237">
+        <ele>65.014</ele>
+      </trkpt>
+      <trkpt lat="50.485139" lon="-3.54264">
+        <ele>65.495</ele>
+      </trkpt>
+      <trkpt lat="50.485032" lon="-3.54131">
+        <ele>66.937</ele>
+      </trkpt>
+      <trkpt lat="50.48516" lon="-3.539593">
+        <ele>64.534</ele>
+      </trkpt>
+      <trkpt lat="50.484109" lon="-3.537512">
+        <ele>60.208</ele>
+      </trkpt>
+      <trkpt lat="50.483272" lon="-3.534937">
+        <ele>52.998</ele>
+      </trkpt>
+      <trkpt lat="50.482993" lon="-3.534765">
+        <ele>50.114</ele>
+      </trkpt>
+      <trkpt lat="50.481985" lon="-3.535838">
+        <ele>45.788</ele>
+      </trkpt>
+      <trkpt lat="50.480998" lon="-3.536053">
+        <ele>44.346</ele>
+      </trkpt>
+      <trkpt lat="50.47971" lon="-3.536804">
+        <ele>40.02</ele>
+      </trkpt>
+      <trkpt lat="50.478809" lon="-3.537791">
+        <ele>36.175</ele>
+      </trkpt>
+      <trkpt lat="50.478315" lon="-3.537877">
+        <ele>33.291</ele>
+      </trkpt>
+      <trkpt lat="50.473874" lon="-3.535452">
+        <ele>28.485</ele>
+      </trkpt>
+      <trkpt lat="50.473788" lon="-3.535066">
+        <ele>29.927</ele>
+      </trkpt>
+      <trkpt lat="50.473981" lon="-3.53395">
+        <ele>33.291</ele>
+      </trkpt>
+      <trkpt lat="50.473766" lon="-3.53219">
+        <ele>43.385</ele>
+      </trkpt>
+      <trkpt lat="50.473852" lon="-3.532104">
+        <ele>43.385</ele>
+      </trkpt>
+      <trkpt lat="50.473444" lon="-3.532019">
+        <ele>48.672</ele>
+      </trkpt>
+      <trkpt lat="50.473659" lon="-3.532104">
+        <ele>50.114</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

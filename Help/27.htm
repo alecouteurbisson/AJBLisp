@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>let</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (let ((&lt;symbol&gt; &lt;value&gt;) ...) &lt;body&gt; ...)</h1>
+<b>Macro    </b><br />
+<p>
+Creates local variables.  The expressions in body are
+evaluated in turn and the value of the last is returned.
+The first argument is a list of variable bindings that exist
+only during the evaluation of &lt;body&gt; ...
+</p><p>
+Each variable binding is itself a list of two items, a
+symbol and an expression that is evaluated and initially
+bound to the symbol. All of the &lt;value&gt; expressions are
+evaluated in the environment surrounding the let.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (let ((a 1) (b 2))
+       (+ a b) )
+= 3
+</pre>
+</body>
+</html>

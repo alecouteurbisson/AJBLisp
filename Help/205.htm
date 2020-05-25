@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>case</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (case &lt;expr&gt; (&lt;match&gt; &lt;body&gt;...) ... [(:else &lt;body&gt;...)])</h1>
+<b>Macro    </b><br />
+<p>
+Evaluate &lt;expr&gt; and search for an eql &lt;match&gt; in the clauses
+that follow.  &lt;match&gt; may be an atom or a list of atoms, any
+of which may match with &lt;expr&gt;.  The &lt;body&gt;... of the first
+matching clause is evaluated (like progn) and returned.  If the
+matching process reaches a clause beginning with :else then this
+automatically matches. There may be clauses following the :else
+clause but these will always be ignored.
+</p><p>
+Failure to locate a match results in an error.
+<p>
+</body>
+</html>

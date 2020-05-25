@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>slet</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (slet ((&lt;symbol&gt; &lt;value&gt;) ...) &lt;body&gt; ...)</h1>
+<b>Macro    </b><br />
+<p>
+Creates local variables.  The expressions in body are
+evaluated in turn and the value of the last is returned.
+The first argument is a list of variable bindings that exist
+from their definition to the end of &lt;body&gt; ...
+</p><p>
+Each variable binding is itself a list of two items, a
+symbol and an expression that is evaluated and initially
+bound to the symbol. The bindings take place sequentially
+and the &lt;value&gt; of any binding may refer to the local value
+of any previously bound symbol.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (slet ((a 2) (b (* a 3)))
+        (+ a b))
+= 8
+</pre>
+</body>
+</html>

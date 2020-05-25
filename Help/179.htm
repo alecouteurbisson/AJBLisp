@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>and</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (and [&lt;boolean&gt; ...])</h1>
+<b>Macro    </b><br />
+<p>
+Evaluates its arguments from left to right until
+one of them is nil whereupon it returns nil.
+If all arguments are not nil or if there are no arguments
+then it returns t.
+</p><p>
+In addition to its use as a boolean operator it can also
+be used to check pre-conditions (although when/unless are
+better suited for this purpose.)
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (and)                  ; Degenerate case
+= t
+
+&gt; (and t nil)
+= nil
+
+&gt; (and (consp x) (pop x))
+= nil                     ; x was not a cons so (pop x)
+                          ; was never evaluated
+</pre>
+</body>
+</html>

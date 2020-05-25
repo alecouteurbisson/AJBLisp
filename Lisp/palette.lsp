@@ -1,0 +1,10 @@
+(setq win (gwindow 512 512 "Palette"))
+(gviewport win 0 0 16 16)
+
+(for (i 0 15)
+     (for (j 0 15)
+          (setq c (gcolour (/ i 16.0) (/ j 16.0)  0.999))
+          (println c)
+          (gbrush win c :bs_solid)
+          (gpen win 0x0 :ps_solid)
+          (grectangle win i j (+ i 1) (+ j 1)) ))

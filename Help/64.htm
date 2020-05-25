@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>string&lt;&gt;</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (string&lt;&gt; &lt;string&gt; &lt;string&gt; [&lt;mode&gt;])</h1>
+<b>Function </b><br />
+<p>
+String comparison predicate. Return t if the strings are
+unequal.  Mode can be :case (default), :nocase or :collate.
+</p><p>
+The operation of :collate depends on the locale setting.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (string&lt;&gt; "0ne" (string 1))
+= t
+</pre>
+</body>
+</html>

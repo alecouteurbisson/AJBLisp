@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>guard</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (guard &lt;body&gt;... &lt;cleanup&gt;)</h1>
+<b>Macro    </b><br />
+<p>
+Guard functions just like progn except that the last
+expression in a guard is always executed.
+If any form of non-local exit from &lt;body&gt;
+occurs then the final &lt;cleanup&gt; form will be executed
+before control leaves the guard.
+</p><p>
+Exceptions occurring in the cleanup expression are not
+affected.  Errors will still be reported and guard will
+not return if an error occurs in any of the expressions.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (guard (print "before ") (+ 3 "q") (print "after"))
+before after
+Error [5] : Numeric argument expected
+Error object: "q"
+Failed in: (+ 3 "q")
+</pre>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>system</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (system &lt;command&gt; [&lt;dir&gt; [&lt;outfile&gt; [&lt;infile&gt;]]])</h1>
+<b>Function </b><br />
+<p>
+Pass the &lt;command&gt; string to a new shell process and return the
+exit code as an integer.  &lt;dir&gt; is the directory in which to run
+the new process and it defaults to the current directory.
+</p><p>
+If &lt;outfile&gt; is present then this becomes the stdout/stderr
+for the new process.  Likewise for &lt;infile&gt; which replaces stdin.
+</p><p>
+Note that these must be file atoms, not file names.
+</p><p>
+The defaults are for output to go to the terminal and for input
+to be at EOF.  Any of the optional arguments may be explicitly set
+to nil to retain the default setting.
+</p><p>
+Input/output redirection and pipes may be used in the command
+string and this approach is easiest if you simply want a commands
+input and/or output in a named file.
+</p><p>
+Note that using / instead of \\ in path names will not work
+reliably because many shell commands interpret / as the prefix of
+a switch.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (system "cd")                ; Where are we?
+C:\Program Files\AJBLisp
+= 0
+
+&gt; (system "cd" "e:\\Work")     ; Now run cd in e drive
+e:\Work
+= 0
+
+&gt; (system "dir &gt;dir.txt c:\\") ; Command redirection
+= 0
+
+&gt; (system "ipconfig" nil file) ; Append output to an open file
+= 0                            ; but let the directory default
+
+&gt; (system "start c:\\")        ; Run a GUI process
+= 0
+</pre>
+</body>
+</html>

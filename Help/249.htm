@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>gcolour</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (gcolour &lt;red&gt; &lt;green&gt; &lt;blue&gt;), gcolour(&lt;integer&gt;), gcolour(&lt;grey&gt;)</h1>
+<b>Function </b><br />
+<p>
+Construct/deconstruct a colour value.
+</p><p>
+With three arguments it specifies the colour in the fractional parts.
+The integer parts are ignored.  This makes it easy to generate palettes
+that cycle through many distinct colours.  It also means that
+specifying, say, 1.0 for red will make the red component zero.
+</p><p>
+Use, for example, (gcolour 0.999 0.999 0.999) to make white.
+</p><p>
+The output value is an integer of the form 0x00BBGGRR.
+</p><p>
+With a single, integer argument it reverses the process and
+supplies the red, green and blue values in a list.  These
+are scaled so that the full scale value is 255.0/256.0
+</p><p>
+With a single real argument colour returns an integer grey level.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (gcolour 0.5 0.0 0.5)      ; purple
+= 8388736                    ; = 0x800080
+
+&gt; (gcolour 8388736)          ; convert back to RGB values
+= (0.5000000000000000 0.000000000000000 0.5000000000000000)
+
+&gt; (gbrush win (gcolour 0.5)) ; fill style set to solid mid-grey
+= nil
+</pre>
+</body>
+</html>

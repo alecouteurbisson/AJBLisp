@@ -1,0 +1,7 @@
+AJBLisp is a simple lisp interpreter originally based upon the BBC Micro Lisp implementation.  The internal structure of the interpreter is probably very different (I don't know for sure) but the principles of operation for the end user are much the same.
+
+The interpreter was written to find out how Lisp works and because I liked the BBC Micro Lisp very much.  If you are (say) a competent C/C++ programmer then you can reasonably expect to learn most of AJBLisp in a few hours.  Even total beginners will find that they can be productive in Lisp in a very short time.
+
+The Lisp listener (terminal) has been designed to encourage trial and error with its history functions and to allow easy clipboard exchange with an editor.  Both of these features encourage exploratory programming.  Indeed, my primary use for the interpreter is for the development and understanding of  algorithms (e.g. see the regex.lsp file.)
+
+This program has been written with due regard to third parties that may wish to modify or extend it.  The coding style is readable and it is well commented (I would consider it good enough for deliverable, contracted code).  If you know C++ (or even C) and want to know how a Lisp interpreter works then reading the source should be very helpful.  AJBLisp is a very simple and direct implementation of a Lisp 1 (the original lisp) and this makes easier to understand than many other open-source Lisps.

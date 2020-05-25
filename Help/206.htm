@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>error</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (error &lt;num&gt; [&lt;obj&gt;] [&lt;string&gt;])</h1>
+<b>Function </b><br />
+<p>
+Raise an error with the given message string and error
+number.
+The default error message depends upon the error number.
+</p><p>
+Negative error numbers are fatal errors and cannot be
+trapped with errorset.
+</p><p>
+All messages are prefixed with "Error [&lt;num&gt;]:" or
+"Fatal [&lt;num&gt;]:" except for errors 0 and 1.
+The error object (if any) will be printed on the next line.
+To specify no error object use :none
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (error 1 'foo)
+Programmed error
+Error object: foo
+</pre>
+</body>
+</html>

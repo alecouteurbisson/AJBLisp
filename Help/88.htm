@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>float-format</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (float-format [&lt;string&gt;])</h1>
+<b>Function </b><br />
+<p>
+Read or set the format for floating output. The format string
+should be a C language format as used by printf.  This format
+is used by string, print and println.  The formats used by
+write and writeln are fixed to provide re-readable input with
+full accuracy. Remember that Lisp floats are C doubles and the
+format should be of type lg, le, lE or lf.
+print-format is a more flexible (and modeless) option.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (float-format "%10.4lf")
+= "%10.4lf"
+
+&gt; (println (sqrt 3))
+      1.7321
+= 1.732050807568877
+</pre>
+</body>
+</html>

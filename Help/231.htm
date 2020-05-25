@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>statistics</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (statistics [0])</h1>
+<b>Macro    </b><br />
+<p>
+Fetch system statistics, (EvalCount GCCount ConsCount).
+</p><p>
+EvalCount does not include simple value lookups but only
+real function applications. With any argument (it makes
+sense to use 0) it resets the counters to zero and returns
+nil.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (statistics)
+= (2268 1 14735)
+</pre>
+</body>
+</html>

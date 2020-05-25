@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>vset</title>
+<link rel="stylesheet" type="text/css" href="help.css">
+</head>
+<body>
+<h1><br /> (vset &lt;vector&gt; &lt;index&gt; &lt;value&gt;)</h1>
+<b>Function </b><br />
+<p>
+Set the value at the given index of the vector and return
+the new value.
+This function will not modify literal vectors (e.g.
+<p>
+<br /><br /><b>Examples:</b>
+<pre>
+&gt; (setq v #(x y z))
+= #(x y z)
+
+&gt; (vset v 1 'q)
+= q
+
+&gt; v
+= #(x q z)
+</pre>
+</body>
+</html>
